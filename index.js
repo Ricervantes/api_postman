@@ -4,8 +4,7 @@ require('dotenv').config()
 const app = express();
 const port = process.env.PORT;
 
-// Where we will keep books
-let books = [];
+
 
 app.use(cors());
 
